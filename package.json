@@ -1,0 +1,34 @@
+{
+  "name": "order-processor",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6.9.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-a-l-t/order-processor.git"
+  },
+  "author": "Peter Mills",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-a-l-t/order-processor/issues"
+  },
+  "homepage": "https://github.com/s-a-l-t/order-processor#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-plugin-jest": "^23.0.0",
+    "eslint-plugin-jsdoc": "^18.0.1",
+    "jest": "^24.9.0"
+  }
+}
